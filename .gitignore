@@ -25,7 +25,7 @@ pnpm-debug.log*
 .vscode
 .idea
 *.swp
-*.md
+
 
 # git 
 git_sync.bat
