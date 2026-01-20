@@ -297,9 +297,8 @@ export default function PriceDisplay({ token, onAddToWatchlist, isInWatchlist }:
 
   if (!token) {
     return (
-      <div className="card p-16 text-center">
-        <div className="icon-box-outline mx-auto mb-4 text-black/40">?</div>
-        <p className="text-black/60 uppercase tracking-wider text-sm">
+      <div className="card p-24 flex items-center justify-center text-center">
+        <p className="text-black/60 uppercase tracking-[0.2em] font-black text-sm">
           Enter token address to view prices
         </p>
       </div>

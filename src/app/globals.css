@@ -218,16 +218,6 @@ body {
     @apply border-t-2 border-black my-6;
   }
 
-  /* Icon box */
-  .icon-box {
-    @apply flex items-center justify-center w-12 h-12 bg-black text-white font-black text-lg border-2 border-black;
-  }
-  
-  .icon-box-outline {
-    @apply flex items-center justify-center w-12 h-12 border-2 border-black text-black font-black text-lg bg-white;
-    box-shadow: 2px 2px 0 0 #ff4d00;
-  }
-
   /* Risk levels */
   .risk-low { @apply border-2 border-black bg-white; box-shadow: 4px 4px 0 0 #ff4d00; }
   .risk-medium { @apply border-2 border-black bg-white; box-shadow: 4px 4px 0 0 #ff4d00; }
