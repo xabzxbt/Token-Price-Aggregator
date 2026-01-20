@@ -26,3 +26,6 @@ pnpm-debug.log*
 .idea
 *.swp
 *.md
+
+# Git automation scripts
+git_sync.bat
